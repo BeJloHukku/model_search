@@ -16,14 +16,14 @@
 # No need to call init of superclass "Block", since Block is an abstract class.
 """Well known building blocks for Convolutional networks."""
 
-import abc
-
 import functools
 import enum
 
 from model_search import registry
 from model_search.ops import svdf_cell
 from model_search.ops import svdf_conv
+
+import abc
 
 import keras_tuner
 
