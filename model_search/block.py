@@ -19,8 +19,8 @@
 
 import abc
 
-import enum
 import functools
+import enum
 
 import keras_tuner
 
