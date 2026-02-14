@@ -20,9 +20,10 @@
 import enum
 import functools
 
+from model_search import registry
+
 import keras_tuner
 
-from model_search import registry
 from model_search.ops import svdf_cell
 from model_search.ops import svdf_conv
 
