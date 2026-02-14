@@ -17,8 +17,6 @@
 # No need to call init of superclass "Block", since Block is an abstract class.
 """Well known building blocks for Convolutional networks."""
 
-import abc
-
 import enum
 import functools
 
@@ -30,6 +28,8 @@ from model_search.ops import svdf_conv
 
 import tensorflow.compat.v2 as tf
 import tf_slim
+
+import abc
 # TODO(b/172564129): better documentation for this file. http://b/130796421
 
 
