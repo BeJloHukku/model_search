@@ -19,16 +19,17 @@
 import functools
 import enum
 
-from model_search import registry
+import functools
+
 from model_search.ops import svdf_cell
 from model_search.ops import svdf_conv
-
-import abc
 
 import keras_tuner
 
 import tensorflow.compat.v2 as tf
 import tf_slim
+
+import abc
 # TODO(b/172564129): better documentation for this file. http://b/130796421
 
 
