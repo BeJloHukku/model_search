@@ -1,5 +1,4 @@
-# Copyright 2020 Google LLC
-#
+# Copyright 2020 Google LLM#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -22,11 +21,11 @@ import abc
 import functools
 import enum
 
-import keras_tuner
-
 from model_search import registry
 from model_search.ops import svdf_cell
 from model_search.ops import svdf_conv
+
+import keras_tuner
 
 import tensorflow.compat.v2 as tf
 import tf_slim
